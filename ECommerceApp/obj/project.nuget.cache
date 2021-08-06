@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "eH2dTCzawASInSGNNm3v/5HBW61q7Q4VY066f+L7/Sv5oDx6s4FNDAAMa0n2YsQFpYQv4QVIrtoaYHRN/qxAiw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\ECommerceApp\\ECommerceApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Ord.Core is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Project Ord.Core supports: netstandard3.1 (.NETStandard,Version=v3.1)",
+      "libraryId": "Ord.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

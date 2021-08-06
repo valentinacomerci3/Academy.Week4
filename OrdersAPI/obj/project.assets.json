@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CommerceEF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Ord.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommerceEF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommerceEF.dll": {}
+        }
+      },
+      "Ord.Core/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Ord.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ord.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommerceEF/1.0.0": {
+      "type": "project",
+      "path": "../CommerceEF/CommerceEF.csproj",
+      "msbuildProject": "../CommerceEF/CommerceEF.csproj"
+    },
+    "Ord.Core/1.0.0": {
+      "type": "project",
+      "path": "../Ord.Core/Ord.Core.csproj",
+      "msbuildProject": "../Ord.Core/Ord.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CommerceEF >= 1.0.0",
+      "Ord.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\valentina.comerci\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\OrdersAPI\\OrdersAPI.csproj",
+      "projectName": "OrdersAPI",
+      "projectPath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\OrdersAPI\\OrdersAPI.csproj",
+      "packagesPath": "C:\\Users\\valentina.comerci\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\OrdersAPI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\valentina.comerci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\CommerceEF\\CommerceEF.csproj": {
+              "projectPath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\CommerceEF\\CommerceEF.csproj"
+            },
+            "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\Ord.Core\\Ord.Core.csproj": {
+              "projectPath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\Ord.Core\\Ord.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Ord.Core is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project Ord.Core supports: netstandard3.1 (.NETStandard,Version=v3.1)",
+      "libraryId": "Ord.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

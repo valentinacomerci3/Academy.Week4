@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "uKjZVDPiDJR0esbkMtUrfU3PEsyF+zTrlKCC3l1AYDL4y/azjeYQu0TJAi93F3h+0xpzBJwlWC6sqdYOdaM1ng==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\OrdersAPI\\OrdersAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Ord.Core is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project Ord.Core supports: netstandard3.1 (.NETStandard,Version=v3.1)",
+      "libraryId": "Ord.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
