@@ -1,0 +1,12 @@
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.csprojAssemblyReference.cache
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.AssemblyInfoInputs.cache
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.AssemblyInfo.cs
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.csproj.CoreCompileInputs.cache
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\bin\Debug\netstandard2.0\CommerceEF.deps.json
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\bin\Debug\netstandard2.0\CommerceEF.dll
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\bin\Debug\netstandard2.0\CommerceEF.pdb
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\bin\Debug\netstandard2.0\Ord.Core.dll
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\bin\Debug\netstandard2.0\Ord.Core.pdb
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.csproj.CopyComplete
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.dll
+C:\Users\valentina.comerci\source\repos\Week4.OrderManag\CommerceEF\obj\Debug\netstandard2.0\CommerceEF.pdb

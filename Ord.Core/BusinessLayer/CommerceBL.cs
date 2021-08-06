@@ -11,8 +11,7 @@ namespace Ord.Core.BusinessLayer
     {
         private readonly ICustomerRepository CustomerRepo;
         private readonly IOrderRepository OrderRepo;
-
-        
+        private global::CommerceEF.Repository.EFCustomerRepository eFCustomerRepository;
 
         public CommerceBL(ICustomerRepository CustomerR, IOrderRepository OrderR)
         {
@@ -20,7 +19,10 @@ namespace Ord.Core.BusinessLayer
             this.OrderRepo = OrderR;
         }
 
-        
+        public CommerceBL(global::CommerceEF.Repository.EFCustomerRepository eFCustomerRepository)
+        {
+            this.eFCustomerRepository = eFCustomerRepository;
+        }
 
         public bool CreateCustomer(Customer newCustomer)
         {

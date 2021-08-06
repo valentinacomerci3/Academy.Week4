@@ -1,12 +1,11 @@
-﻿using Ord.Core.BusinessLayer;
-using Ord.Core.Models;
+﻿using CommerceEF.Repository;
+using Ord.Core.BusinessLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using Comm;
 
 namespace CommerceWCF
 {
@@ -28,7 +27,7 @@ namespace CommerceWCF
             return this.mainBL.CreateCustomer(newCustomer);
         }
 
-        
+
 
         public bool DeleteCustomerById(int idCustomer)
         {
@@ -38,7 +37,7 @@ namespace CommerceWCF
             return false;
         }
 
-        
+
 
         public bool EditCustomer(Customer editedCustomer)
         {
@@ -48,13 +47,14 @@ namespace CommerceWCF
             return this.mainBL.EditCustomer(editedCustomer);
         }
 
-        
+
 
         public IEnumerable<Customer> FetchCustomers()
         {
             return this.mainBL.FetchCustomers();
         }
 
-        
+
     }
+}
 }

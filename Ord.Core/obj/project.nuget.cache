@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Le13c06QaEk7TeZd3m6X5B4eWPvcQB7xvvKtK4UTDLttUk+sfmAD6A67IdtFV9ajiBi4vyGhPBYuBxBlAzvZ9w==",
+  "dgSpecHash": "IHu7yFmw/tbv1MXufThk58fVQy8EIwvn7I6Ldfz8Zw2HLr0u7I7iXWmAxk8czoxrv0pbhat6Wm1zR42BQj0Oyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\valentina.comerci\\source\\repos\\Week4.OrderManag\\Ord.Core\\Ord.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\valentina.comerci\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\valentina.comerci\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

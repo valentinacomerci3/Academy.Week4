@@ -24,6 +24,6 @@ namespace CommerceWCF
         [OperationContract]
         bool DeleteCustomerById(int idCustomer);
 
-        
+
     }
 }

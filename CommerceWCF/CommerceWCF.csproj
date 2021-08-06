@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{812F2169-B765-4A1A-AFB9-4102DD27FDBB}</ProjectGuid>
+    <ProjectGuid>{417E9957-63DB-42C4-A285-AD9B6FCED149}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CommerceWCF</RootNamespace>
@@ -44,22 +44,12 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICustomerService.cs" />
+    <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CustomerService.cs" />
+    <Compile Include="Service1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CommerceEF\CommerceEF.csproj">
-      <Project>{99f5a012-2407-47c0-96f7-d0118164af60}</Project>
-      <Name>CommerceEF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Ord.Core\Ord.Core.csproj">
-      <Project>{78082B42-76A3-4C95-B71A-D8894D07B617}</Project>
-      <Name>Ord.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

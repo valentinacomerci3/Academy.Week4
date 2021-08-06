@@ -1,8 +1,10 @@
+using CommerceEF;
 using CommerceEF.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,7 +34,7 @@ namespace OrdersAPI
             services.AddTransient<CommerceBL>();
             services.AddTransient<IOrderRepository, EFOrderRepository>();
 
-            services.AddDbContext<EmployeeContext>(options =>
+            services.AddDbContext<CommerceContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("employeeDb"));
             });
